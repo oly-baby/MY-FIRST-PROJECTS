@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    min-height: 100%;
+    overflow: auto;
+    position: fixed;
+    background-color: orangered;
+    top: 0;
+    width: 20%;
+}
+.left h4{
+    font-size: 22px; 
+    color: white;
+    margin: 40px;
+    padding-top: 70px;
+    line-height: 40px;
+}
+.sidebar-links{
+    margin-top: 40px;
+}
+.sidebar-links li {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.sidebar-links li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    color:white
+} .sidebar-links li a:hover{
+    background-color: white;
+    color: black;
+}
+.right{
+    /* width: 70px; */
+    margin-left: 360px;
+}
+.right h1{
+    font-size: 80px;
+    /* margin: 50px; */
+    padding-top: 80px;
+}
+.right h2{
+    color: orangered; 
+    font-size: 50px;
+}
+.hr1{
+    color: orangered;
+    border: 6px solid; 
+    width: 55px;
+    border-radius: 5px;
+}
+.img-grid{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 10px;
+    gap: 15px;
+    justify-content: space-between;
+}
+.img1{
+    background-size: cover;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/kitchenconcrete.jpg);
+    width: 50%;
+    min-height: 500px;
+}
+.img2{
+    background-size: cover;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/atrium.jpg);
+    width: 50%;
+    min-height: 500px;
+}
+.img3{
+    background-size: cover;
+    width: 50%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/livingroom.jpg);
+    min-height: 350px;
+        
+}
+.img4{
+    background-size: cover;
+    width: 50%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/bedroom.jpg);
+    min-height: 350px;
+
+}
+.img5{
+    background-size: cover;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/diningroom.jpg);
+    width: 50%;
+    min-height: 350px;
+}
+.img6{
+    background-size: cover;
+    width: 50%;
+    min-height: 350px;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/livingroom2.jpg);
+}
+
+
+
+.serve{
+    color: orangered; 
+    font-size: 40px;
+}
+.hr2{
+    color: orangered;
+    border: 6px solid; 
+    width: 60px;
+}
+.serve1{
+    font-size: 18px;
+}
+.serve2{
+    font-size: 18px;
+}
+.design{
+    color: orangered; 
+    font-size: 40px;
+}
+.design2{
+    font-size: 20px;
+}
+.design1{
+    font-size: 18px;
+}
+.design3{
+    font-size: 18px;
+}
+.hr3{
+    color: orangered;
+    border: 6px solid; 
+    width: 60px;
+}
+.designer-grid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.img12{
+    width: 100%;
+}
+.img22{
+    width: 100%;
+}
+.img23{
+    width: 100%;
+}
+.img12 img{
+    background-size: cover;
+    width: 97%;
+    min-height: 150px;
+}
+.img22 img{
+    background-size: cover;
+    width: 97%;
+    min-height: 150px;
+}
+.img23 img{
+    background-size: cover;
+    width: 97%;
+    min-height: 150px;
+}
+.imgtxt{
+    background-color: lightgray;
+    width: 97%;
+    line-height: 17px;
+
+}
+.imgtxt h3{
+    padding-top: 20px;
+    font-size: 25px;
+    margin-left: 17px;
+}
+.imgtxtp{
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 17px;
+    color: gray;
+}
+.imgtxtpp{
+   padding-top: 20px;
+   font-size: 17px;
+  margin-left: 17px;
+} 
+.pack{
+    color: orangered; 
+    font-size: 40px;
+}
+.hr4{
+    color: orangered;
+    border: 6px solid; 
+    width: 60px;
+    border-radius: 5px;
+}
+.pack1{
+    font-size: 15px;
+}
+.package-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    width: 97%;
+    padding-top: 20px;
+}
+.basic-box33{
+    list-style-type: none;
+}
+.ff{
+    text-align: center;
+    padding: 20px;
+    background-color: gainsboro;
+}
+.b1{
+    padding: 30px;
+    font-size: xx-large;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.t1{
+    padding: 30px;
+    font-size: xx-large;
+    background-color:orangered;
+    color: white;
+    text-align: center;
+}
+.bb{
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+.bb1{
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+.tt{
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+.tt1{
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+.link{
+    text-decoration: none; 
+    background-color: white;
+    padding: 15px;
+    margin-left: 220px;
+    color: black;
+}
+.linka{
+    background-color: gainsboro;
+    padding: 35px;
+}
+.link2{
+    text-decoration: none; 
+    background-color: orangered;
+    padding: 15px; 
+    margin-left: 220px;
+    color: white;
+}
+.link2a{
+    background-color: gainsboro;
+    padding: 35px;
+}
+.basic2{
+    background-color: orangered;
+}
+.hr6{
+    color: gainsboro;
+}
+
+.contact h1{
+    color: orangered; 
+    font-size: 50px;
+}
+.hr7{
+    color: orangered;
+    border: 6px solid; 
+    width: 5%;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+input{
+    width: 90%; 
+    padding: 8px;
+}
+.submit{
+    width: 90%;
+    color: white; 
+    background-color: orangered;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.footer{
+    background-color: rgb(207, 206, 206); 
+    text-align: end; 
+    padding: 50px;
+}
+.footer1{
+    color: black;
+}
+.footer2{
+    color: black;
+}
+

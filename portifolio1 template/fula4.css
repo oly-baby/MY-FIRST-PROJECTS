@@ -1,0 +1,419 @@
+body{
+    font-family: raleway, sans-serif; 
+    background-color: darkgray; 
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.left{
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 20%;
+}
+.nav{
+    margin: 20px;
+}
+.nav img{
+    width: 45%;
+    border-radius: 5px;
+}
+.nav h4{
+    font-size: 20px;
+}
+.nav p{
+    opacity: 75%; 
+    margin-top: 20px;
+}
+.sidebar-links{
+    margin-top: 20px;
+}
+.sidebar-links li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+}
+.sidebar-links .go{
+    color: aquamarine;
+}
+.sidebar-links li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    color:black;
+} .sidebar-links  a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.right{
+    margin-left: 20%;
+}
+.right1{
+    background-color: lightgray;
+}
+.right2{
+    margin-left: 15px;
+    
+}
+.right2 h1{
+    font-size: 35px;
+}
+.filter-links li{
+    list-style-type: none;
+    display: inline-block;
+}
+.filter-links li a{
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.filter-list a:hover{
+    background-color: gray;
+}
+.listhr{
+    margin-top: 30px; 
+    border: 3px solid grey;
+    width: 99%;
+    
+}
+.flex{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    gap: 10px; 
+}
+.img1 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/mountains.jpg);
+    background-size: cover;
+}
+.img2 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/lights.jpg);
+    background-size: cover;
+}
+.img3 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/nature.jpg);
+    background-size: cover;
+}
+.img4 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/p1.jpg);
+    background-size: cover;
+}
+.img5 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/p2.jpg);
+    background-size: cover;
+}
+.img6 {
+    min-height: 250px;
+    width: 100%;
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/p3.jpg);
+    background-size: cover;
+}
+.imgtxt{
+    margin: 10px;
+}
+
+.number1{
+    background-color: black; 
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.number1 :hover{
+    background-color: gray;
+}
+.num{
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.number nav{
+    text-align: center;
+}
+.number nav a:hover{
+    background-color: black;
+    color: white;
+}
+.date{
+    padding: 20px 0px 20px 0px;
+}
+.dimg img{
+    width: 100%;
+}
+.skillp{
+    font-size: large;
+}
+.photog{
+    display: flex;
+}
+.percentage{
+    background-color: rgb(107, 106, 106); 
+    width: 95%; 
+    text-align:center;
+    padding: 10px; 
+    color: white;
+}
+.per{
+    background-color: rgb(165, 165, 165); 
+    padding: 20px; 
+    width: 5%;
+}
+.web{
+    display: flex;
+}
+.percentage2{
+    background-color: rgb(107, 107, 107);
+    width: 85%; 
+    text-align: center; 
+    padding: 10px; 
+    color: white;
+
+}
+.per2{
+    background-color: rgb(165, 165, 165); 
+    padding: 20px; 
+    width: 15%;
+}
+.shop{
+    display: flex;
+}
+.percentage3{
+    background-color: rgb(107, 107, 107);
+    width: 85%; 
+    text-align: center; 
+    padding: 10px; 
+    color: white;
+
+}
+.per3{
+    background-color: rgb(165, 165, 165); 
+    padding: 20px; 
+    width: 20%;
+}
+
+.grid-item{
+    background-color: white;
+    background-size: 50px;
+}
+.double-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.download-link a{
+    background-color: rgb(107, 107, 107); 
+    text-align: center; 
+    padding: 12px 20px 12px 30px; 
+    color: white; 
+    text-decoration: none;
+}
+.download-link a:hover{
+    background-color: rgb(233, 227, 227);
+    color: black;
+    border: 1px solid rgb(196, 193, 193);
+}
+.chargep{
+    font-size: larger;
+}
+.charge-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    
+}
+.basic-box ul{
+    list-style-type: none;
+    opacity: 60%;
+    width: 95%;
+}
+.basic-box li{
+    border: 1px solid gainsboro;
+    text-align: center;
+    padding: 18px;
+    background-color: white;
+    width: 100%;
+}
+.basic-box1 ul{
+    list-style-type: none;
+    opacity: 60%;
+    width: 90%;
+}
+.basic-box1 li{
+    border: 1px solid gainsboro;
+    text-align: center;
+    padding: 18px;
+    background-color: white;
+    width: 100%;
+}
+
+.b1{
+    font-size: xx-large; 
+}
+.b1s{
+    font-size: medium;
+}
+.b1ss{
+    text-decoration: none; 
+    padding: 10px 20px 10px 20px; 
+    color: white;
+    background-color: rgb(38, 161, 170);
+
+}
+.basic-box ul:hover{
+    opacity: 100%;
+}
+.basic-box ul li:first-child{
+    padding: 40px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.basic-box ul li:last-child{
+    padding: 12px;
+    background-color: rgb(7, 209, 175);
+    width: 25%;
+    margin: 20px;
+    margin-left: 150px;
+}
+.basic-box1 ul:hover{
+    opacity: 100%;
+}
+.basic-box1 ul li:first-child{
+    padding: 40px;
+    font-size: larger;
+    background-color: rgb(7, 209, 175);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.basic-box1 ul li:last-child{
+    padding: 12px;
+    margin: 20px;
+    background-color: rgb(7, 209, 175);
+    width: 25%;
+    
+    margin-left: 150px;
+}
+.contact{
+    background-color: darkgrey;
+}
+.contact-section{
+    margin: 20px;
+}
+.contact1{
+    display: flex;
+}
+.cont1{
+    background-color: rgb(114, 112, 112); 
+    color:white;
+    padding: 15px; 
+    text-align: center; 
+    width: 100%;
+}
+.cont2{
+    background-color: rgb(7, 209, 175); 
+    color:white;
+    padding: 15px; 
+    text-align: center; 
+    width: 100%;
+}
+.cont3{
+    background-color: rgb(114, 112, 112); 
+    color:white;
+    padding: 15px; 
+    text-align: center; 
+    width: 100%;
+}
+input{
+    width: 100%; 
+    padding: 8px;
+}
+button{
+    background-color: black; 
+    color: white; 
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+.foot{
+    background-color: rgb(85, 82, 82); 
+    height: 300px;
+}
+.ft-flex {
+    display: flex;
+    color: white;
+    margin: 20px;
+}
+.ft-flex > div {
+    width: 100%;
+}
+.footerp{
+    color: white;
+}
+.blog1{
+    padding: 16px; 
+    width: 98%;
+}
+.blog1 img{
+    width:50px;
+    margin-right: 20px;
+}
+.span{
+    font-size: large;
+}
+.hr{
+    width: 98%;
+}
+.blogpost img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.blog1:hover {
+    background-color: lightgrey;
+}
+.pop{
+    background-color:  gray;
+    font-size: 13px;
+    padding: 4px;
+}
+.pop1{
+    background-color: black; 
+    padding: 4px;
+}
+.travel p span{
+    color: black;
+    background-color: darkgray;
+    /* margin-inline: 2px; */
+    font-size: small;
+    padding: 0 5px 0 5px;
+}
+.travel p span:first-child:not(small){
+    font-size: medium;
+    color: white;
+}
+.lastfo{
+    background-color: black; 
+    padding:  30px; 
+    color: white; 
+    text-align: center;
+     
+}
+

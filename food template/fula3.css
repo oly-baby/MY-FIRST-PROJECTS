@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+li{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    background-color:white;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    padding: 200px;
+    color: black;
+}
+.food-flex1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.food{
+    background-color: white;
+    height: 650px;
+    width: 300px;
+}
+.img1{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/sandwich.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img2{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/steak.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img3{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/cherries.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img4{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/wine.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img5{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/popsicle.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img6{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/salmon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.img9{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/sandwich.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.img10{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/croissant.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.number{
+  text-align: center;
+
+}
+.number a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.number a:hover{
+    background-color: gray;
+    padding: 15px;
+}
+.number1{
+    background-color: black;
+    padding: 18px;
+    color: white;
+    
+    
+}
+.hr1{
+    width: 90%;
+    margin: 40px;
+    border-bottom: 30px;
+}
+.about {
+    text-align: center;
+}
+.hr2{
+    width: 70%;
+    margin: 0px 200px;
+    border-bottom: 30px;
+}
+.ft-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 200px;
+    margin-left: 150px;
+}
+.ft-flex > div {
+    width: 25%;
+}
+.footer{
+    margin: 20px;
+}
+.footer p{
+    line-height: 15px;
+    margin: 10px;
+}
+.footerp{
+    color: black;
+}
+.blog1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.blogpost img {
+    width: 50px;
+    height: 50px;
+}
+.blog1p{
+    font-size: 15px;
+    padding-top: 12px;
+
+}
+.blog1:hover {
+    background-color: lightgrey;
+    padding: 10px;
+}
+.blog1hr{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.travel{
+    color: white;
+    padding: 3px;
+    background-color: rgb(94, 94, 94);
+}
+
+.spann{
+    background-color: black; 
+    font-size: larger;
+    color: white;
+    padding: 5px;
+}
+@media screen and(max-width:600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    nav{
+        width: 100%;
+        position: sticky;
+        top: 0;
+    }
+    li{
+        width: 100%;
+    }
+    ul{
+        list-style-type: none;
+        background-color:white;
+        padding: 20px;
+        text-transform: capitalize;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    li a{
+        text-decoration: none;
+        padding: 200px;
+        color: black;
+    }
+    .food-flex1 {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+    }
+    .food{
+        background-color: white;
+        height: 650px;
+        width: 300px;
+    }
+    .img1{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/sandwich.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px
+    }
+    .img2{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/steak.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .img3{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/cherries.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .img4{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/wine.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .img5{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/popsicle.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    .img6{
+        background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/salmon.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+    }
+    
+}

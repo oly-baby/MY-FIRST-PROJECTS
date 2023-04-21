@@ -1,0 +1,334 @@
+body{
+    background-color: rgba(233, 233, 233, 0.884);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.me{
+    font-size: 25px;
+}
+.menu{
+    margin-left: 1300px;
+    font-size: 35px;
+}
+.menu-bar ul{
+    background-color: white;
+    list-style-type: none;
+    font-size: xx-large;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+}
+li{
+    float: left;
+}
+.img-flex{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+.img1{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/girl.jpg);
+    min-height: 400px;
+    background-size: cover;
+}
+.img2{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/girl_train.jpg);
+}
+.img3{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/man_bench.jpg);
+}
+.img4{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/natureboy.jpg);
+}
+.img5{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/boy.jpg);
+    min-height: 400px;
+    background-size: cover;
+}
+.img6{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/man_bench.jpg);
+}
+.img7{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/girl_mountain.jpg);
+}
+.img8{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/girl_train.jpg);
+}
+.img9{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/girl.jpg);
+    background-size: cover;
+    min-height: 400px;
+}
+.img10{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/natureboy.jpg);
+}
+.img11{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/closegirl.jpg);
+}
+.img12{
+    background-image: url(file:///C:/Users/HP/Documents/W3Schools-2021-09-19/w3images/boy.jpg);
+}
+.pag{
+    background-color: black; 
+    color: white;
+}
+.pagination div a{
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: white,
+}
+.pagination div{
+    text-align: center;
+}
+.pagination div a:hover{
+    background-color: black;
+    color: white;
+}
+.about{
+    background-color: rgb(102, 102, 102); 
+    color: white;
+}
+.about1{
+    text-align: center;
+}
+.about1 img{
+    width :600px;
+}
+.about2{
+    font-size: 18px;
+    margin-left: 50px;
+}
+.about-cnt{
+    width: 44%;
+    margin-left: 28%;
+}
+.hr1{
+    color: black;
+    width: 90%;
+    margin-left: 50px;
+}
+.tech-skill{
+    margin-left: 50px;
+}
+.skill{
+    font-size: large;
+}
+.percentage{
+    background-color: rgb(145, 145, 145); 
+    width: 95%; 
+    text-align: center;
+    padding: 8px; 
+    color: white;
+
+}
+.per{
+    background-color: white; 
+    padding: 8px; 
+    width: 10%;
+}
+.web{
+    background-color: rgb(145, 145, 145); 
+    width: 85%; 
+    text-align: center;
+    padding: 8px; 
+    color: white;
+
+}
+.web1{
+    background-color: white; 
+    padding: 8px; 
+    width: 15%;
+}
+
+.shop{
+    background-color: rgb(145, 145, 145); 
+    width: 80%; 
+    text-align: center;
+    padding: 8px; 
+    color: white;
+
+}
+.shop1{
+    background-color: white; 
+    padding: 8px; 
+    width: 20%;
+}
+ .link{
+     text-decoration: none; 
+     background-color: rgb(247, 245, 245); 
+     color: black; 
+     padding: 15px;
+     text-transform: capitalize;
+ }
+ .hr2{
+    color: black;
+    width: 42%;
+    margin-left: 490px;
+}
+.charge1{
+    margin-left: 50px;
+}
+.charge{
+    margin-left: 450px;
+    font-size: 20px;
+}
+.charge-box{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 15px;
+    width: 60%;
+    margin-left: 450px;
+}
+.basic-box {
+    list-style-type: none;
+}
+.basic-box h3{
+    border: 1px;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    width: 100%;
+
+}
+
+.basic-box  h3:first-child{
+    padding: 30px;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+
+.basic-box h3:last-child{
+    padding: 40px 20px 40px 20px;
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+}
+.basic-box hr{
+    color: gainsboro;
+    opacity: 10px;
+}
+.pp{
+    font-size: xx-large;
+    line-height: 20px;
+}
+.pp1{
+    font-size: medium; 
+    opacity: 50%;
+}
+.link3{
+    text-decoration: none; 
+    background-color:white;
+    padding: 10px; 
+    color: black;
+}
+.bb{
+    font-size: xx-large;
+    line-height: 20px;
+}
+.bb1{
+    font-size: medium; 
+    opacity: 50%;
+}
+.link2{
+    text-decoration: none; 
+    background-color: white;
+    padding: 13px; 
+    color:black;
+
+}
+.contact{
+    margin-left: 500px; 
+    width: 44%;
+}
+.contact h3{
+    text-align: center;
+}
+input{
+    width: 90%; 
+    padding: 10px;
+}
+button{
+    background-color: black; 
+    color: white;
+    width: 90%; 
+    padding: 10px;
+}
+.foot{
+    background-color: darkgray;
+    min-height: 150px;
+    padding: 20px;
+}
+.footer{
+    min-height: 100px; 
+    color: black; 
+   }
+.ft-flex {
+    display: flex;
+    color: white;
+    margin: 20px;
+}
+.ft-flex > div {
+    width: 100%;
+}
+.blogpost{
+    color: black;
+}
+.blogpost img {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.blog1{
+    padding: 16px; 
+    width: 98%;
+}
+.blog1 img{
+    width :50px; 
+    margin-right: 20px;
+}
+.span{
+    font-size: large;
+}
+.hr3{
+   width: 98%; 
+}
+.blog1:hover {
+    background-color: black;
+    color: white;
+}
+.popular{
+    color: black;
+}
+.pop1{
+    background-color: black; 
+    padding: 4px;
+}
+.pop{
+    color: white;
+    background-color: gray;
+    font-size: small;
+    padding: 5px;
+}
+.footer1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    min-height: 80px;
+}
+.footer2{
+    color: white;
+}
+
+ 
+
+
