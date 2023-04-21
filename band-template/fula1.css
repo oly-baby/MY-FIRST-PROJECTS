@@ -238,8 +238,7 @@ hr {
     display: flex;
     width: 52%;
     justify-content: space-around;
-    /* position: absolute; */
-    left: 0%;
+    margin-left: 450px;
     background-size: 50px;
     min-height: 600px;
     padding-top: 0px;
